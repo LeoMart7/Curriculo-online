@@ -1,0 +1,87 @@
+#id {
+    border: 4px solid silver;
+    border-radius: 10px;
+    width: 6rem;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.titleLeo {
+    color: steelblue;
+    text-shadow: 1px 1px 5px cyan, -1px 1px 1px cyan, 1px -1px 1px cyan, -1px -1px 1px cyan;
+
+    width: 645px;
+
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+}
+
+#titleLeo {
+    box-shadow: 0px 1px 0px cyan, 0px -1px 0px cyan, 0px 1px 0px cyan;
+
+}
+
+html {
+    color: lightblue;
+    background-image: url('Fotos/WriteCode.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+
+}
+
+em {
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+}
+
+img {
+    width: 11rem;
+    height: 14rem;
+    border: 2px solid darkcyan;
+
+    border-radius: 20px;
+}
+
+img:hover {
+    border-color: dodgerblue;
+}
+
+figcaption:hover {
+    text-shadow: 1px 1px 1px dodgerblue, -1px 1px 1px dodgerblue, 1px -1px 1px dodgerblue, -1px -1px 1px dodgerblue;
+}
+
+nav li {
+    display: inline;
+}
+
+main h1,
+h2,
+h3 {
+    font: 100;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: darkturquoise;
+    color: blue;
+
+}
+
+a:active {
+    background-color: blue;
+    color: darkturquoise;
+}
+
+main {
+    font-size: 1.1rem;
+}
+
+main p {
+    text-indent: 2rem;
+}
+
+a {
+    background-color: dodgerblue;
+    color: snow;
+}
