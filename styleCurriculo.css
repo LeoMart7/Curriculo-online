@@ -23,6 +23,7 @@
 
 html {
     color: lightblue;
+    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
     background-image: url('Fotos/WriteCode.webp');
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +33,7 @@ html {
 }
 
 em {
-    text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black, -1px -1px 1px black;
+    text-shadow: 1px 1px 1px gray, -1px 1px 1px gray, 1px -1px 1px gray, -1px -1px 1px gray;
 }
 
 img {
