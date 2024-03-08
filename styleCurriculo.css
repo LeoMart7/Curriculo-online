@@ -40,16 +40,16 @@ img {
     width: 11rem;
     height: 14rem;
     border: 2px solid darkcyan;
-
     border-radius: 20px;
 }
 
 img:hover {
+    box-shadow: 10px 10px 10px red, -10px 10px 10px red, 10px -10px 10px red, 10px 10px -10px red;
     border-color: dodgerblue;
 }
 
 figcaption:hover {
-    text-shadow: 1px 1px 1px dodgerblue, -1px 1px 1px dodgerblue, 1px -1px 1px dodgerblue, -1px -1px 1px dodgerblue;
+    text-shadow: 10px 5px 10px dodgerblue, -1px 5px 10px dodgerblue, 1px -5px 1px dodgerblue, -1px -1px 1px dodgerblue;
 }
 
 nav li {
